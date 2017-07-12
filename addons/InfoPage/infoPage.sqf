@@ -8,7 +8,7 @@
 sleep 20;   //delay before message is displayed after logging in
 	
 _text = "
-<t align='center'><t shadow= 1 shadowColor='#000000'><t size='1.2'><t color='#c08f30'>HCCorp Wasteland Altis</t>
+<t align='center'><t shadow= 1 shadowColor='#000000'><t size='1.2'><t color='#c08f30'>HCCorp Wasteland Malden</t>
 <br />
 <br />
 <t align='center'><t size='1.2'><t shadow= 1 shadowColor='#000000'>Atalhos</t><br />

@@ -23,7 +23,7 @@ player createDiaryRecord ["changelog",
 "
 <br/>[Added] Jets DLC
 <br/>[Added] Aircraft carrier on Stratis
-<br/>[Added] Resupply trucks on Altis and Stratis
+<br/>[Added] Resupply trucks on Altis, Stratis and Malden
 <br/>[Added] Driver assist
 <br/>[Changed] Aircraft prices
 <br/>[Changed] Blocked explosives near parking and storage

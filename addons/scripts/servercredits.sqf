@@ -40,16 +40,15 @@ _onScreenTime = 10; //how long one role should stay on screen. Use value from 0 
 sleep 60; //Wait in seconds before the credits start after player IS ingame
  
 _role1 = "Bem-vindos a|Welcome to";
-_role1names = ["HC Corp A3Wasteland Altis"];
-//_role2 = "Suporte aos jogadores e fórum|Player support and forum @";
-//_role2names = ["hccorp.com.br"];
-//_role3 = "Servidor Discord|Discord server @";
-//_role3names = ["discord.hccorp.com.br"];
-//_role4 = "Servidor TeamSpeak|TeamSpeak server @";
-//_role4names = ["ts.hccorp.com.br"];
+_role1names = ["HC Corp A3Wasteland Malden"];
 _role2 = "Servidor TeamSpeak|TeamSpeak server @";
-_role2names = ["186.228.98.5:9991"];
- 
+_role2names = ["HC.stchost.com.br"];
+_role3 = "Há Stores escondidas no mapa";
+_role3names = ["Elas mudam de lugar a cada reset"];
+//_role4 = "Suporte aos jogadores e fórum|Player support and forum @";
+//_role4names = ["hccorp.com.br"];
+//_role5 = "Servidor TeamSpeak|TeamSpeak server @";
+//_role5names = ["ts.hccorp.com.br"]; 
 {
 	sleep 2;
 	_memberFunction = _x select 0;
@@ -72,6 +71,6 @@ _role2names = ["186.228.98.5:9991"];
 	[_role1, _role1names],
 	[_role2, _role2names]
 //	[_role2, _role2names],
-//	[_role3, _role3names],
+	[_role3, _role3names],
 //	[_role4, _role4names]   //make SURE the last one here does NOT have a , at the end
 ];
