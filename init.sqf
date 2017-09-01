@@ -108,7 +108,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";             // Keypad AF
 	[] execVM "addons\timedrestart\timed_restart.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
-	[] execVM "addons\Scripts\fn_advancedSlingLoadingInit.sqf";
+	//[] execVM "addons\Scripts\fn_advancedSlingLoadingInit.sqf";
 	[] execVM "addons\scripts\trader.sqf";                 // Trader
 	[] execVM "addons\scripts\HvT.sqf";                      // High Value Money	
     [] execVM "addons\scripts\HvD.sqf";                      // High Value Drugrunner
