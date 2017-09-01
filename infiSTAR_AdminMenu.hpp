@@ -1,11 +1,11 @@
 /*
 Antihack & AdminTools - Christian Lorenzen - www.infiSTAR.de
 
-infiSTAR (for) A3 #2967
-Date: 02-Apr-2017 00-14-36
+infiSTAR (for) A3 #4064
+Date: 28-Mar-2017 23-52-08
 Version: v0248
-Owner: leandro_santos-rj@hotmail.com
-OwnerUID: 76561197995894355
+Owner: rneves2004@hotmail.com
+OwnerUID: 76561198111056023
 */
 class RscListBox_infiSTAR {
 access=0;

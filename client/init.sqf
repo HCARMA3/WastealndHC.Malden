@@ -138,9 +138,7 @@ if (["A3W_survivalSystem"] call isConfigOn) then
 
 [] spawn
 {
-	[] execVM "client\functions\globalChatMessages.sqf";
 	[] execVM "client\functions\createGunStoreMarkers.sqf";
-
 
 	if (["A3W_privateParking"] call isConfigOn) then
 	{

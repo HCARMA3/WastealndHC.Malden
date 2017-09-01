@@ -102,9 +102,10 @@ if (hasInterface || isServer) then
 	[] execVM "addons\outlw_magrepack\MagRepack_init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\laptop\init.sqf";						 // Hack laptop	
-	[] execVM "addons\statusBar\statusbar.sqf";              // Status do FPS LR
+	//[] execVM "addons\statusBar\statusbar.sqf";              // Status do FPS LR
 	[] execVM "addons\Grenades\initGrenades.sqf";            // Toxic Gas, smokerYellow and GLsmokerRed
 	[] execVM "ScarCode\sRestartWarnings.sqf";               // Aviso do Restart
+	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";             // Keypad AF
 	[] execVM "addons\timedrestart\timed_restart.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
 	[] execVM "addons\Scripts\fn_advancedSlingLoadingInit.sqf";

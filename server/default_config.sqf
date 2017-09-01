@@ -26,7 +26,7 @@ A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
 A3W_startingMoney = 10000;          // Amount of money that players start with
-A3W_maxMoney = 1000000;            // Maximum amount of money that will save on players and crates
+A3W_maxMoney = 2000000;            // Maximum amount of money that will save on players and crates
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
 A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
 A3W_bleedingTime = 90;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
@@ -59,7 +59,7 @@ A3W_vehiclePurchaseCooldown = 60; // Number of seconds to wait before allowing s
 
 // ATM settings
 A3W_atmEnabled = 1;                // Enable ATM system (0 = no, 1 = yes)
-A3W_atmMaxBalance = 1000000;        // Maximum amount of money that can be stored in a bank account (don't go over 16777216 as numbers start losing accuracy)
+A3W_atmMaxBalance = 2000000;        // Maximum amount of money that can be stored in a bank account (don't go over 16777216 as numbers start losing accuracy)
 A3W_atmTransferFee = 20;            // Fee in percent charged to players for money transfers to other players (0 to 50)
 A3W_atmTransferAllTeams = 0;       // Allow money transfers between players of all teams/sides (0 = same team only, 1 = all teams)
 A3W_atmEditorPlacedOnly = 0;       // Only allow access via ATMs placed from the mission editor (0 = all ATMs from towns & editor allowed, 1 = ATMs from editor only) Note: Stratis has no town ATMs, only editor ones.
@@ -178,3 +178,17 @@ A3W_sideMissionDelay = 5*60;       // Time in seconds between Side Missions
 A3W_sideMissionTimeout = 40*60;    // Time in seconds that a Side Mission will run for, unless completed
 A3W_moneyMissionDelay = 15*60;     // Time in seconds between Money Missions
 A3W_moneyMissionTimeout = 60*60;   // Time in seconds that a Money Mission will run for, unless completed
+A3W_superMissionDelay = 20*60;	   // Time in seconds between Super Missions
+A3W_superMissionTimeout = 60*60;    // Time in seconds that a Super Mission will run for, unless completed
+
+// Boxes
+A3W_SuperBoxes = ["CargoNet_01_box_F"];
+A3W_LargeBoxes = ["Box_T_NATO_WpsSpecial_F","Box_T_East_WpsSpecial_F","Box_IND_WpsSpecial_F","Box_East_WpsSpecial_F","Box_NATO_WpsSpecial_F",
+	"O_CargoNet_01_ammo_F","I_CargoNet_01_ammo_F","B_CargoNet_01_ammo_F",
+	"Box_Syndicate_WpsLaunch_F","Box_IND_WpsLaunch_F","Box_East_WpsLaunch_F","Box_NATO_WpsLaunch_F"];
+A3W_MediumBoxes = ["I_supplyCrate_F","IG_supplyCrate_F","B_supplyCrate_F",
+	"Box_IND_Support_F","Box_East_Support_F","Box_NATO_Support_F",
+	"Box_CSAT_Equip_F","Box_AAF_Equip_F","Box_NATO_Equip_F",
+	"Box_AAF_Uniforms_F","Box_CSAT_Uniforms_F","Box_NATO_Uniforms_F"];
+A3W_SmallBoxes = ["Box_FIA_Ammo_F","Box_FIA_Support_F","Box_FIA_Wps_F",
+	"Box_IND_AmmoOrd_F","Box_East_AmmoOrd_F","Box_NATO_AmmoOrd_F"];

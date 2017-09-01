@@ -84,6 +84,8 @@ if (isServer) then
 
 if (isServer) then
 {
+	call compile preprocessFileLineNumbers "mapConfig\init.sqf";
+
 	_serverCompileHandle = [] spawn compile preprocessFileLineNumbers "server\functions\serverCompile.sqf"; // scriptDone stays stuck on false when using execVM on Linux
 
 	[] execVM "server\functions\broadcaster.sqf";
@@ -179,9 +181,9 @@ if (isServer) then
 		"A3W_hungerTime",
 		"A3W_thirstTime",
 		"A3W_fastMovementLog",
+		"A3W_restartServer",
 		"A3W_fastMovementLogDist",
 		"A3W_fastMovementLoopTime",
-		"A3W_restartServer",
 		"A3W_reservedSlots",
 		"A3W_maxPlayers"
 	];
@@ -199,9 +201,9 @@ if (isServer) then
 _playerSavingOn = ["A3W_playerSaving"] call isConfigOn;
 _baseSavingOn = ["A3W_baseSaving"] call isConfigOn;
 _boxSavingOn = ["A3W_boxSaving"] call isConfigOn;
+serverCommandPassword = ["A3W_restartServer"] call getPublicVar;
 _staticWeaponSavingOn = ["A3W_staticWeaponSaving"] call isConfigOn;
 _warchestSavingOn = ["A3W_warchestSaving"] call isConfigOn;
-serverCommandPassword = ["A3W_restartServer"] call getPublicVar;
 _warchestMoneySavingOn = ["A3W_warchestMoneySaving"] call isConfigOn;
 _beaconSavingOn = ["A3W_spawnBeaconSaving"] call isConfigOn;
 _timeSavingOn = ["A3W_timeSaving"] call isConfigOn;

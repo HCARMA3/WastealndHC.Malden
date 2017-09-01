@@ -15,12 +15,12 @@ private ["_MessagesToAnnounceStringArray","_DisplayTimesCheckArray","_MinimumSle
 _MessagesToAnnounceStringArray = 
 
 [
-["Procurando por um admin? Entre no nosso TS - HC.stchost.com.br", 300],
-["Este servidor restarta a cada 4 horas para garantir o desempenho do cliente", 612],
-["Uso de Hack/Meios ilícitos= BAN PERMA", 907],
-["Este servidor é monitorado por vários admins mesmo fora do jogo", 674], 
-["Dúvidas,reclamações e suporte, entre no TS3 (HC.stchost.com.br)", 523],
-["Há Gun Stores Clandestinas não marcadas no mapa que mudam de posição a cada restart.Se acha-las,aproveite.", 709]
+["Precisa de suporte? TS3: HC.stchost.com.br", 300],
+["Este servidor restarta a cada 4 horas para garantir o desempenho do cliente", 600],
+//["Uso de Hack/Meios ilícitos= BAN PERMA", 1400],
+//["Este servidor é monitorado por vários admins mesmo fora do jogo", 1200],
+//["Dúvidas,reclamações e suporte, entre no TS3 (HC.stchost.com.br)", 1500]
+["Há Gun Stores Clandestinas não marcadas no mapa que mudam de posição a cada restart.Se acha-las,aproveite.", 900]
 
 ];
 
